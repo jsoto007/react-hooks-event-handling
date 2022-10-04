@@ -9,7 +9,7 @@ function ChangeItUp() {
     <div>
       <input
         type="text"
-        name="search"
+        name="searche"
         onChange={handleChange}
         placeholder="Enter search term..."
       />
@@ -18,6 +18,7 @@ function ChangeItUp() {
         <option value="all">Select a filter...</option>
         <option value="completed">Completed</option>
         <option value="incomplete">Incomplete</option>
+        <option value="Example">Hey there</option>
       </select>
     </div>
   );
